@@ -93,3 +93,102 @@ header {
     margin: auto;
     margin-top: 150px;
 }
+
+.section2-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 630px 630px 630px;
+}
+
+.section2-container h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 45px;
+    font-weight: 900;
+    color: var(--Very-dark-desaturated-blue);
+    margin-bottom: 30px;
+}
+
+.text-container-a {
+    margin: 170px 120px 0 180px;
+}
+
+.text-container-b {
+    margin: 145px 110px 0 130px;
+}
+
+.s2-text {
+    font-size: 18px;
+    font-family: 'Barlow', serif;
+    color: var(--Dark-grayish-blue);
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.s2-link {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: var(--Very-dark-desaturated-blue);
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: solid 8px var(--Yellow);
+    width: 130px;
+    margin-left: 10px;
+
+}
+
+.s2-link:hover {
+    border-bottom: solid 8px var(--Soft-red);
+}
+
+
+
+.s2-b {
+    background-image: url(../Clase_29/images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s2-c {
+    background-image: url(../Clase_29/images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s2-d {
+    background-image: url(../Clase_29/images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.s2-e {
+    background-image: url(../Clase_29/images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.second-text-container {
+    margin: 430px 210px 0 210px;
+}
+
+.s2-subtitle {
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    color: var(--Dark-desaturated-cyan);
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.s2-subtext {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Barlow', serif;
+    font-size: 16px;
+    color: var(--Dark-desaturated-cyan);
+    line-height: 25px;
+}
