@@ -192,3 +192,126 @@ header {
     color: var(--Dark-desaturated-cyan);
     line-height: 25px;
 }
+
+.section-3-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    "title3 title3 title3"
+    "card1 card2 card3";
+    margin: 0 180px 0 180px;
+    /* grid-template-columns: 100%, 33% 33% 33%;
+    grid-template-rows: 210px 300px; */
+}
+
+.title3 {
+    grid-area: title3;
+    margin-top: 170px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    color: var(--Grayish-blue);
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.title3 h1 {
+    text-align: center;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.card3 {
+    grid-area: card3;
+}
+
+.item {
+    margin-top: 50px;
+    height: 550px;
+    width: 365.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-a {
+    background-image: url(../Clase_29/images/image-emily.jpg);
+}
+
+.photo-b {
+    background-image: url(../Clase_29/images/image-thomas.jpg);
+}
+
+.photo-c {
+    background-image: url(../Clase_29/images/image-jennie.jpg);
+}
+
+.testimonial-photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+
+.testimonial-text {
+    text-align: center;
+    font-family: 'Barlow', serif;
+    font-size: 18px;
+    color: var(--Very-dark-grayish-blue);
+    margin-top: 70px;
+    width: 350px;
+    line-height: 35px;
+}
+
+.testimonial-name {
+    font-family: 'Fraunces', serif;
+    color: var(--Very-dark-desaturated-blue);
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 70px;
+}
+
+.testimonial-job {
+    font-family: 'Barlow', serif;
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    margin-top: 15px;
+}
+
+
+.section4-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.item4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 480px;
+    width: 25%;
+}
+
+.photo1 {
+    background-image: url(../Clase_29/images/desktop/image-gallery-milkbottles.jpg);
+}
+
+.photo2 {
+    background-image: url(../Clase_29/images/desktop/image-gallery-orange.jpg);
+}
+
+.photo3 {
+    background-image: url(../Clase_29/images/desktop/image-gallery-cone.jpg);
+}
+
+.photo4 {
+    background-image: url(../Clase_29/images/desktop/image-gallery-sugarcubes.jpg);
+}
